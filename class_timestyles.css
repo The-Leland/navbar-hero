@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.navbar {
+  position: relative;
+  top: 10;
+  left: 50;
+  width: 100%;
+  background-color: rgb(6, 6, 129); 
+  padding: 60px; 
+  z-index: 1000;
+}
+
+.logo img {
+  margin: 0 auto;
+  display: block;
+  height: auto; 
+  width: 20%;
+}
+
+.video-background {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 60vh; 
+}
+
+#video-flying-cowboys {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; 
+}
+
+.mission-wrapper {
+  background-image: url("./our-mission.webp");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.overtop-text {
+  display: inline-block;
+  position: relative; 
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  /* background-color: black; */
+  color: white;
+  z-index: 0;  
+  margin: auto auto;
+}
+
+.overtop-text img {
+  max-width: 100%;
+  height: auto;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: -1; 
+}
+
+.overtop-text h1 {
+  display: inline-block;
+  /* position: absolute; 
+  top: 45%; 
+  left: 50%; */
+  z-index: 1;
+  color: white;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+i {
+  display: block;
+  font-size: 40px; 
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.overtop-text p {
+  display: block;
+  /* position: absolute; 
+  top: 60%;
+  left: 50%;  */
+  z-index: 1;
+  color: white;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.content-below {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(6, 6, 129); 
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-to-top {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+
+  
