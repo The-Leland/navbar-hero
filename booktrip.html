@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Trip</title>
+    <link rel="stylesheet" type="text/css" href="./booktrip-styles.css">
+
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="media-container">
+        <div class="text-overtop">
+            <h1>Your Centered Text</h1>
+        </div>
+        <video class="media" autoplay loop muted>
+            <source src="./citynight.mp4" type="video/mp4">
+        </video>
+        
+    </section>
+
     <h1>Book a Trip</h1>
+    <div>
     <form action="https://sometravelwebsite.com" method="post">
         <label for="first-name">First Name:</label><br>
         <input type="text" id="first-name" name="first_name" placeholder="First Name" required><br><br>
@@ -19,12 +42,17 @@
 
         <label for="phone">Phone Number:</label><br>
         <input type="tel" id="phone" name="phone" placeholder="Phone Number" required><br><br>
+    </div>
 
+    <div>
         <label for="start-date">Start Date:</label><br>
         <input type="date" id="start-date" name="start_date" required><br><br>
 
         <label for="end-date">End Date:</label><br>
         <input type="date" id="end-date" name="end_date" required><br><br>
+    </div>
+    
+    <div>
 
         <label for="package">Package:</label><br>
         <input type="radio" id="basic" name="package" value="basic" required>
@@ -42,6 +70,7 @@
 
         <label for="additional-info">Additional Information:</label><br>
         <textarea id="additional-info" name="additional_info" rows="4" cols="50"></textarea><br><br>
+    </div>
 
     </form>
 </body>
