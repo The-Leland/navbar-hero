@@ -10,32 +10,48 @@ body {
 .navbar {
   position: relative;
   top: 10;
-  left: 50;
   width: 100%;
-  background-color: rgb(6, 6, 129); 
-  padding: 60px; 
+  background-color: rgba(32, 32, 77, 0.938); 
+  padding: 20px; 
   z-index: 1000;
+  text-align: center;
 }
 
-.logo img {
-  margin: 0 auto;
-  display: block;
+.logo {
+  display: inline-block;
   height: auto; 
-  width: 20%;
+  width: 15%;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 60vh;
 }
 
 .video-background {
-  position: sticky;
+  position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
-  height: 60vh; 
+  height: 100%;
+  z-index: 1;
 }
 
 #video-flying-cowboys {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1; 
+}
+
+.flying-cowboys-logo {
+  position: absolute;
+  top: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  z-index: 2; 
+  width: 25%; 
+  height: auto;
 }
 
 .mission-wrapper {
@@ -53,7 +69,6 @@ body {
   top: 40%;
   width: 100%;
   text-align: center;
-  /* background-color: black; */
   color: white;
   z-index: 0;  
   margin: auto auto;
